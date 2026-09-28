@@ -1,0 +1,54 @@
+{
+    "accuracy": 0.96,
+    "precision": 0.9602964403876793,
+    "recall": 0.9600202265221918,
+    "f1": 0.9600937106011314,
+    "macro_f1": 0.9600937106011314,
+    "weighted_f1": 0.9600673207254882,
+    "roc_auc": 0.996823152013964,
+    "confusion_matrix": [
+        [
+            687,
+            21,
+            0
+        ],
+        [
+            33,
+            669,
+            8
+        ],
+        [
+            1,
+            22,
+            684
+        ]
+    ],
+    "per_class": {
+        "Fresh": {
+            "precision": 0.9528432732316228,
+            "recall": 0.9703389830508474,
+            "f1": 0.9615115465360392,
+            "roc_auc": 0.9976815026574006
+        },
+        "Semi-Fresh": {
+            "precision": 0.9396067415730337,
+            "recall": 0.9422535211267605,
+            "f1": 0.9409282700421941,
+            "roc_auc": 0.9940038819489374
+        },
+        "Rotten": {
+            "precision": 0.9884393063583815,
+            "recall": 0.9674681753889675,
+            "f1": 0.9778413152251608,
+            "roc_auc": 0.9987840714355538
+        }
+    },
+    "classification_report": "              precision    recall  f1-score   support\n\n       Fresh       0.95      0.97      0.96       708\n  Semi-Fresh       0.94      0.94      0.94       710\n      Rotten       0.99      0.97      0.98       707\n\n    accuracy                           0.96      2125\n   macro avg       0.96      0.96      0.96      2125\nweighted avg       0.96      0.96      0.96      2125\n",
+    "model": "resnet18",
+    "display_name": "ResNet18",
+    "total_parameters": 11178051,
+    "trainable_parameters": 11178051,
+    "model_size_mb": 42.68,
+    "training_time_sec": 557.92,
+    "inference_time_ms": 1.07
+}

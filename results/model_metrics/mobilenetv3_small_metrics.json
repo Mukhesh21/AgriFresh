@@ -1,0 +1,54 @@
+{
+    "accuracy": 0.8931764705882353,
+    "precision": 0.8948841171612764,
+    "recall": 0.8932294537300812,
+    "f1": 0.893673285292936,
+    "macro_f1": 0.893673285292936,
+    "weighted_f1": 0.8936062800754766,
+    "roc_auc": 0.9763561019514251,
+    "confusion_matrix": [
+        [
+            649,
+            56,
+            3
+        ],
+        [
+            88,
+            602,
+            20
+        ],
+        [
+            4,
+            56,
+            647
+        ]
+    ],
+    "per_class": {
+        "Fresh": {
+            "precision": 0.8758434547908233,
+            "recall": 0.9166666666666666,
+            "f1": 0.8957902001380262,
+            "roc_auc": 0.9794046465637198
+        },
+        "Semi-Fresh": {
+            "precision": 0.8431372549019608,
+            "recall": 0.847887323943662,
+            "f1": 0.8455056179775281,
+            "roc_auc": 0.9573871497536456
+        },
+        "Rotten": {
+            "precision": 0.9656716417910448,
+            "recall": 0.9151343705799151,
+            "f1": 0.9397240377632534,
+            "roc_auc": 0.9922765095369097
+        }
+    },
+    "classification_report": "              precision    recall  f1-score   support\n\n       Fresh       0.88      0.92      0.90       708\n  Semi-Fresh       0.84      0.85      0.85       710\n      Rotten       0.97      0.92      0.94       707\n\n    accuracy                           0.89      2125\n   macro avg       0.89      0.89      0.89      2125\nweighted avg       0.89      0.89      0.89      2125\n",
+    "model": "mobilenetv3_small",
+    "display_name": "MobileNetV3-Small",
+    "total_parameters": 1520931,
+    "trainable_parameters": 1520931,
+    "model_size_mb": 5.85,
+    "training_time_sec": 395.93,
+    "inference_time_ms": 0.8
+}

@@ -1,0 +1,19 @@
+Metric,Value
+Dataset Path,D:\ML Project Freshness Detection\AgriFreshNET Freshness and Shelf-Life Image Datase\AgriFreshNET Freshness and Shelf-Life Image Datase\Processed Data\Processed Data
+Total Folders,24
+Total Images Found,14160
+Valid Images,14160
+Corrupted Images,0
+Duplicate Images,40
+Fresh Images,4720
+Semi-Fresh Images,4720
+Rotten Images,4720
+Produce Types Count,8
+Min Width,512
+Max Width,512
+Mean Width,512.0
+Min Height,512
+Max Height,512
+Mean Height,512.0
+Primary Color Modes,RGB: 14160
+Primary Image Format,JPEG: 14160

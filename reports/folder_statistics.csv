@@ -1,0 +1,25 @@
+folder_name,freshness,produce,shelf_life_range,total_images,valid_images,corrupted_images,non_image_files
+Fresh Banana(1-4),Fresh,Banana,1-4,590,590,0,0
+Fresh Bittermelon(1-3),Fresh,Bittermelon,1-3,590,590,0,0
+Fresh Cucumber(1-6),Fresh,Cucumber,1-6,590,590,0,0
+Fresh Orange(1-9),Fresh,Orange,1-9,590,590,0,0
+Fresh Papaya(1-4),Fresh,Papaya,1-4,590,590,0,0
+Fresh Tomato(1-10),Fresh,Tomato,1-10,590,590,0,0
+Fresh eggplant(1-4),Fresh,Eggplant,1-4,590,590,0,0
+Fresh pineapple(1-15),Fresh,Pineapple,1-15,590,590,0,0
+Rotten Bittermelon(5-8),Rotten,Bittermelon,5-8,590,590,0,0
+Rotten Cucumber(12-20),Rotten,Cucumber,12-20,590,590,0,0
+Rotten Orange(20-35),Rotten,Orange,20-35,590,590,0,0
+Rotten Papaya(7-12),Rotten,Papaya,7-12,590,590,0,0
+Rotten Pineapple(25-35),Rotten,Pineapple,25-35,590,590,0,0
+Rotten Tomato(24-35),Rotten,Tomato,24-35,590,590,0,0
+Rotten banana(7-13),Rotten,Banana,7-13,590,590,0,0
+Rotten eggplant(8-15),Rotten,Eggplant,8-15,590,590,0,0
+Semi Fresh Bittermelon ( 3-5),Semi-Fresh,Bittermelon,3-5,590,590,0,0
+Semi Fresh Cucumber(6-12),Semi-Fresh,Cucumber,6-12,590,590,0,0
+Semi Fresh Papaya(4-7),Semi-Fresh,Papaya,4-7,590,590,0,0
+Semi fresh Orange(9-20),Semi-Fresh,Orange,9-20,590,590,0,0
+Semi fresh Pineapple (15-25),Semi-Fresh,Pineapple,15-25,590,590,0,0
+Semi fresh Tomato(10-24),Semi-Fresh,Tomato,10-24,590,590,0,0
+Semi fresh banana(4-7),Semi-Fresh,Banana,4-7,590,590,0,0
+Semi_Fresh eggplant(4-8),Semi-Fresh,Eggplant,4-8,590,590,0,0

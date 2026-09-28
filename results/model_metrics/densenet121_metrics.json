@@ -1,0 +1,54 @@
+{
+    "accuracy": 0.9802352941176471,
+    "precision": 0.9802334575102258,
+    "recall": 0.9802504985348311,
+    "f1": 0.98023388212503,
+    "macro_f1": 0.98023388212503,
+    "weighted_f1": 0.9802219035049136,
+    "roc_auc": 0.9985665507806649,
+    "confusion_matrix": [
+        [
+            698,
+            10,
+            0
+        ],
+        [
+            14,
+            687,
+            9
+        ],
+        [
+            1,
+            8,
+            698
+        ]
+    ],
+    "per_class": {
+        "Fresh": {
+            "precision": 0.9789621318373072,
+            "recall": 0.9858757062146892,
+            "f1": 0.9824067558057706,
+            "roc_auc": 0.9989384352236164
+        },
+        "Semi-Fresh": {
+            "precision": 0.9744680851063829,
+            "recall": 0.967605633802817,
+            "f1": 0.9710247349823321,
+            "roc_auc": 0.9971582143034887
+        },
+        "Rotten": {
+            "precision": 0.9872701555869873,
+            "recall": 0.9872701555869873,
+            "f1": 0.9872701555869873,
+            "roc_auc": 0.9996030028148897
+        }
+    },
+    "classification_report": "              precision    recall  f1-score   support\n\n       Fresh       0.98      0.99      0.98       708\n  Semi-Fresh       0.97      0.97      0.97       710\n      Rotten       0.99      0.99      0.99       707\n\n    accuracy                           0.98      2125\n   macro avg       0.98      0.98      0.98      2125\nweighted avg       0.98      0.98      0.98      2125\n",
+    "model": "densenet121",
+    "display_name": "DenseNet121",
+    "total_parameters": 6956931,
+    "trainable_parameters": 6956931,
+    "model_size_mb": 26.86,
+    "training_time_sec": 3510.56,
+    "inference_time_ms": 3.72
+}

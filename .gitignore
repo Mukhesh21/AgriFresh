@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large Raw Dataset (1.5GB+ - tracked via dataset/*.csv split manifests)
+AgriFreshNET Freshness and Shelf-Life Image Datase/
+
+# Model Checkpoints > 100MB (GitHub single file limit)
+models/**/best_model.pth
+
+# Virtual Environments
+.venv/
+env/
+venv/
+ENV/
+
+# IDE & OS Configuration
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.tmp
+*.log

@@ -1,0 +1,54 @@
+{
+    "accuracy": 0.9590588235294117,
+    "precision": 0.9590769150284553,
+    "recall": 0.9590832740471469,
+    "f1": 0.9590565686785343,
+    "macro_f1": 0.9590565686785343,
+    "weighted_f1": 0.9590341007560115,
+    "roc_auc": 0.9953973779581541,
+    "confusion_matrix": [
+        [
+            675,
+            29,
+            4
+        ],
+        [
+            22,
+            670,
+            18
+        ],
+        [
+            2,
+            12,
+            693
+        ]
+    ],
+    "per_class": {
+        "Fresh": {
+            "precision": 0.9656652360515021,
+            "recall": 0.9533898305084746,
+            "f1": 0.9594882729211087,
+            "roc_auc": 0.9966897120916713
+        },
+        "Semi-Fresh": {
+            "precision": 0.9423347398030942,
+            "recall": 0.9436619718309859,
+            "f1": 0.9429978888106967,
+            "roc_auc": 0.9910993878465137
+        },
+        "Rotten": {
+            "precision": 0.9692307692307692,
+            "recall": 0.9801980198019802,
+            "f1": 0.9746835443037974,
+            "roc_auc": 0.9984030339362769
+        }
+    },
+    "classification_report": "              precision    recall  f1-score   support\n\n       Fresh       0.97      0.95      0.96       708\n  Semi-Fresh       0.94      0.94      0.94       710\n      Rotten       0.97      0.98      0.97       707\n\n    accuracy                           0.96      2125\n   macro avg       0.96      0.96      0.96      2125\nweighted avg       0.96      0.96      0.96      2125\n",
+    "model": "efficientnet_b0",
+    "display_name": "EfficientNet-B0",
+    "total_parameters": 4011391,
+    "trainable_parameters": 4011391,
+    "model_size_mb": 15.46,
+    "training_time_sec": 504.87,
+    "inference_time_ms": 1.66
+}
